@@ -1,0 +1,26 @@
+/**
+	Theme Name: DMC
+	Theme URI: https://dmc.com/
+	Author: DMC Themes
+	Author URI: https://dmc.com/
+	Template:  hotell
+	Description: DMC Custom Theme
+	Version: 1.0.1
+    Requires at least: 4.7
+	Tested up to: 5.8
+	Requires PHP: 7.0
+	License: GNU General Public License v3 or later
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	Text Domain: dmc
+
+  */
+ 
+
+  :root {
+  --hotel-primary-color: #ee5235;
+  --hotel-primary-rgb: 175, 144, 101;
+  --hotel-secondary-color: #FFAC41;
+  --hotel-secondary-rgb: #020201;
+  --hotel-primary-font: 'Montserrat', sans-serif;
+  --hotel-secondary-font: 'Montserrat', sans-serif;
+}

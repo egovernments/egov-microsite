@@ -1,0 +1,206 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.department .col-lg-9 {
+    position: relative;
+}
+.card {
+    cursor: auto;
+}
+
+.header .btn-link {
+  text-align: right;
+}
+.align-item-stretch {
+  align-items: stretch;
+}
+.dataTables_filter {
+    position: absolute;
+    right: 20px;
+    top: 16px;
+}
+.dataTables_filter label {
+    color: #fff;
+}
+.site-header .header-left ul .loginmenu ul li:hover a {
+    color: #185385 !important;
+}
+.site-header .header-left ul .loginmenu a:hover{
+  color: #fff !important;
+}
+.dataTables_filter label input {
+    border: 1px solid #fff;
+    background: transparent;
+}
+header .navbar-brand img,
+.site-branding img{
+    width: auto;
+    max-width: 140px;
+}
+.header .search-container {
+  position: relative;
+}
+.header .search-container button[type="submit"],
+.header .search-container button[type="submit"] i{
+    position: absolute;
+    right: 5px;
+}
+.news .card {
+      min-width: 292px;
+}
+.news .card img {
+    max-height: 235px;
+    object-fit: cover;
+    width: 100%;
+}
+.news .card .heading {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    min-height: 44px;
+    max-width: 180px;
+}
+.upcoming-events .main-wrap{
+  position: relative;
+}
+.upcoming-events .main-wrap::before {
+    content: '';
+    position: absolute;
+    left: 83px;
+    top: 0;
+    width: 1px;
+    background-color: #d2d2d2;
+    height: 100%;
+    z-index: 0;
+}
+.upcoming-events .card-wrap .timestamp::after{
+  display: none;
+}
+.links .box ul {
+    margin: 0;
+}
+.client-slider {
+  position: relative;
+}
+
+.quick-contact .card .icon i {
+    font-size: 53px;
+}
+.quick-contact .card .icon {
+    margin-bottom: 15px;
+}
+.about-gallery .card .image img {
+    min-height: 254px;
+    max-height: 254px;
+    width: 100%;
+    object-fit: cover;
+}
+.dropdown-item .searchform input {
+  border:0;
+}
+svg path {
+    fill: var(--primary-color);
+}
+svg path {
+    stroke: var(--primary-color);
+}
+.social-card {
+  width: 100%;
+}
+.links p {
+    max-width: 350px;
+    text-align: justify;
+}
+.online-services .card .title {
+    margin-top: 10px; 
+}
+.news .card p {
+  text-align: justify;
+}
+.topnav input:focus-visible {outline: none;}
+.swiper  {
+     padding: 0 10px; 
+}
+.leaders .main {
+	width: 100%;
+}
+.leaders .main img {
+    max-height: 419px;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+@media screen and (max-width: 767px) {
+ .dataTables_filter {
+    right: 20px;
+    top: 12px;
+} 
+  .site-header .menu-container-wrapper {
+    display: grid;
+  }  
+  .box-card {
+    flex-wrap: wrap;
+  }
+  .box-card .image {
+    margin-bottom: 20px;
+  }
+  .upcoming-events .card-wrap .text-right {
+    text-align: left !important;
+  }
+  .upcoming-events .card-wrap .accordion {
+    margin-bottom: 10px;	
+  }
+ .header {
+   flex-wrap: wrap;
+   padding: 5px 10px;
+   align-items: center;
+   min-height: auto;
+}
+  .header .topnav {
+    margin-top: 10px;
+    padding-bottom: 10px;
+  }
+  .header .title {
+    line-height: 23px;
+    padding-left: 0;
+    font-weight: 600;
+}
+.dataTables_filter {
+    top: 66px;right: auto;
+    padding: 0 10px;
+}
+.swiper-button-prev {
+    left: 0px;
+}
+.swiper-button-next {
+    right: 0px;
+}
+  .leaders .main {
+    max-width: 286px;
+    margin: 25px auto;
+  }
+  .leaders .main .content {
+    padding: 10px 10px 0;
+  }
+  .leaders .main .name {
+    margin-bottom: 0px;
+    font-size: 16px;
+  }
+  .leaders .main .profile { 
+      font-size: 13px;
+  }
+  .leaders .main .content .btn {
+    min-width: auto;
+    max-width: 122px;
+    margin-top: 10px !important;
+    margin-bottom: 20px;
+    padding: 5px 0px;
+    font-size: 13px;
+  }
+  .upcoming-events .main-wrap::before {
+        left: 53px;
+  }
+}
+</style>
+<!-- end Simple Custom CSS and JS -->
